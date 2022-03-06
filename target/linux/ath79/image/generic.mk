@@ -1094,6 +1094,14 @@ define Device/engenius_eap600
 endef
 TARGET_DEVICES += engenius_eap600
 
+define Device/maselink_ap2600i
+  SOC := ar9344
+  DEVICE_VENDOR := MASELink
+  DEVICE_MODEL := AP2600I
+  IMAGE_SIZE := 16000k
+endef
+TARGET_DEVICES += maselink_ap2600i
+
 define Device/engenius_ecb1200
   SOC := qca9557
   DEVICE_VENDOR := EnGenius
