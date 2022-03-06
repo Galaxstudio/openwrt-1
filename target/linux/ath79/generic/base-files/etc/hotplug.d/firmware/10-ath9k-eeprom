@@ -74,6 +74,7 @@ case "$FIRMWARE" in
 	case $board in
 	atheros,db120|\
 	engenius,eap600|\
+	maselink,ap2600i|\
 	engenius,ecb600|\
 	mercury,mw4530r-v1|\
 	ocedo,raccoon|\
